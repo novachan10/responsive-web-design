@@ -424,7 +424,7 @@ margin-bottom: 30px;
     }
 
     .navigasi{
-        font-size: 2.25vw;
+        font-size: small;
        height: 10vh; 
        width: 100%;
        position: fixed;
@@ -534,5 +534,8 @@ margin-bottom: 30px;
     border-radius: 20px;
 }
 }
+
+
+
 
 
