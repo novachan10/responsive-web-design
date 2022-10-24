@@ -1,0 +1,538 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html{
+     scroll-behavior: smooth;
+
+}
+
+body{
+    background-image: url(files/fotobg.jpeg);
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins',sans-serif;
+}
+
+
+
+.FContainer{
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    width: 100%;
+    /* height: 100vh; */
+    
+
+}
+
+.wrapper{
+    position: fixed;
+    display: flex;
+    justify-content:  space-between;
+    align-items: center;
+    /* font-size: 2vw; */
+    padding: 15px;
+    width: 100%;
+    height: 60px;
+    /* background-color: rgb(252, 107, 192); */
+    background-color: rgb(171, 109, 132);
+    /* box-shadow: 0px 5px 0px rgba(66, 65, 65, 0.263); */
+}
+
+
+.tulisanLogo {
+    display: flex;
+    flex-direction: row;
+    font-size: 1.5em;
+    padding: 15px 50px;
+    text-transform: capitalize;
+    justify-content: center;
+    align-items: center;
+}
+
+.first{
+    color: #ffffff;
+    font-weight: 700;
+}
+
+.last{
+    color: #f1e31c;
+    font-weight: bold;
+    padding-left: 5px;
+}
+
+.navigasi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: capitalize;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 15px 20px;
+    font-size: 1.25vw;
+    margin-right: 15px;
+}
+
+.navigasi > li{
+    list-style-type: none;
+    padding:15px;
+}
+
+.navigasi >li > a{
+    color: #ffffff;
+    font-weight: 400;
+    text-decoration: none; /* buat ngilangin garis bawah link */
+}
+
+.navigasi > li>a:hover{
+    background-color: #ffffff;
+    color: rgb(171, 109, 132);
+    font-weight: bold;
+    border-radius: 5px;
+    box-shadow: 0px 5px 0px rgba(66, 65, 65, 0.5);
+    padding: 15px;
+    /* transition: all .1s ease-in-out; */
+}
+
+.tulisanLogo>img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    margin-right: 15px;
+}
+
+.tulisanLogo>img:hover{
+    width: 60px;
+    height: 60px;
+    border-radius: 60px;
+}
+
+.btn{
+  float: right;
+  font-size: 30px;
+  color: #fcfcfc;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;  
+}
+
+#check{
+    display: none;
+}
+
+#main {
+    width: 105%;
+    background-image: url(files/fototrip2.jpeg) ;
+    background-attachment: fixed;
+    background-size: 100%;
+    background-repeat: no-repeat;  
+
+}
+
+.content{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding-bottom: 130px;
+    margin: 100px;
+    margin-top: 200px;
+    align-items: center;
+
+}
+
+
+
+.judul{
+    font-size: 2.5rem;
+    font-weight: bolder;
+    /* font-style: italic; */
+    text-transform: capitalize;
+    /* text-shadow: 3px 2px 1px grey; */
+    /* text-align: center; */
+    color: #ffffff;
+    margin: 0px 0px 0px 50px; /* atas,kanan,bawah,kiri */
+    line-height: 50px;
+    padding: 20px;
+    /* background-color: rgb(171, 109, 132); */
+    border-radius: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, Geneva, Tahoma, sans-serif;
+}
+
+.isi{
+    /* background-color: #ffffff; */
+    padding: 10px 0px 30px 0px;
+    font-size: 1.15rem;
+    font-weight: bold;
+    font-family: Tahoma;
+    color:rgb(171, 109, 132);
+    /* margin-top: 20px; */
+    margin-left: 70px;
+    /* text-align: center; */
+    text-transform: capitalize;
+ }
+
+ #agt1,#agt3{
+    /* background-color: rgb(252, 107, 192); */
+    padding: 50px;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    
+ }
+
+ #agt2{
+    /* background-color: rgb(252, 107, 192); */
+    margin-top: 30px;
+    padding: 50px;
+    margin-bottom: 100px;
+    
+ }
+
+ .aboutme{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    margin-left: 150px;
+ }
+
+ .aboutme-teks{
+    background-color: #ffffff;
+    padding: 50px;
+    margin: 20px;
+    /* border-radius: 20px; */
+ }
+
+ .aboutme-teks,h2{
+color: rgb(171, 109, 132);
+font-weight: bold;
+text-transform: capitalize;
+font-size: 4rem;
+margin-bottom: 30px;
+ }
+
+ .aboutme-teks ,p{
+    font-size: medium;
+    color: #000000;
+    text-transform: capitalize;
+}
+    
+
+.aboutme-foto img{
+    box-shadow: 10px 10px 10px 0px rgba(51, 50, 50, 0.263);
+    border-radius: 20px;
+}
+
+
+
+footer{
+    position: relative;
+    background-color: rgb(171, 109, 132);
+    width: 105%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+
+.heading{
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    font-size: 2.5em;
+    padding: 20px;
+}
+
+.isi-footer p{
+color: #ffffff;
+}
+
+.social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: capitalize;
+    font-style: italic;
+}
+
+.social >li{
+    list-style-type: none;
+    padding: 15px;
+    
+}
+
+.social > li > a {
+    width: 50px; 
+   height: 50px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background: #f1e31c;
+   border-radius: 50px;
+   margin: 10px 10px;
+   color: #000000;
+   text-decoration: none;
+   font-size: 20px;
+}
+
+.social > li > a:hover{
+    width: 60px;
+    height: 60px;
+    border-radius: 60px;
+    color: #fcfcfc;
+}
+
+.copyright p{
+    color: #ffffff5d;
+}
+
+@media screen and (max-width: 1000px) {
+
+    .navigasi{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-transform: capitalize;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        padding: 15px 20px;
+        font-size: 1.25vw;
+        margin-right: 15px;
+    }
+    
+    .navigasi > li{
+        list-style-type: none;
+        padding:15px;
+    }
+    
+    .navigasi >li > a{
+        color: #ffffff;
+        font-weight: bold;
+        text-decoration: none; /* buat ngilangin garis bawah link */
+    }
+    
+    .navigasi > li>a:hover{
+        background-color: #ffffff;
+        color: rgb(171, 109, 132);
+        font-weight: bold;
+        border-radius: 5px;
+        box-shadow: 0px 5px 0px rgba(66, 65, 65, 0.5);
+        padding: 15px;
+        /* transition: all .1s ease-in-out; */
+    }
+    
+    
+    .content{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        margin: 100px;
+        align-items: center;
+    
+    }
+
+    video{
+        margin-top: 50px;
+        width:77vw;
+    }
+
+
+.judul{
+    font-size: 2.5vw;
+    font-weight: bold;
+    /* font-style: italic; */
+    text-transform: capitalize;
+    text-align: center;
+    color: #ffffff;
+    margin: 20px 0px 10px 0px; /* atas,kanan,bawah,kiri */
+    line-height: 20px;
+    padding: 20px;
+    background-color: rgb(171, 109, 132);
+    border-radius: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, Geneva, Tahoma, sans-serif;
+}
+
+.isi{
+    background-color: #ffffff;
+    padding: 10px 0px 30px 0px;
+    font-size: 1.15rem;
+    /* font-weight: bold; */
+    font-family: Tahoma;
+    color:rgb(171, 109, 132);
+    /* margin-top: 20px; */
+    margin-left: 0px;
+    text-align: center;
+    text-transform: capitalize;
+ }
+
+ 
+
+ .aboutme{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    margin-left: 5vw;
+ }
+
+ .aboutme-teks{
+    text-align: center;
+    background-color: #ffffff;
+    padding: 50px;
+    margin: 10px;
+    /* border-radius: 20px; */
+ }
+
+ /* #agt2 > .aboutme{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    margin-left: 11vw;
+    
+ } */
+
+ 
+ .aboutme-teks,h2{
+color: rgb(171, 109, 132);
+font-weight: bold;
+text-transform: capitalize;
+font-size: 4rem;
+margin-bottom: 30px;
+ }
+
+ .aboutme-teks ,p{
+    font-size: medium;
+    color: #000000;
+    text-transform: capitalize;
+}
+    
+
+.aboutme-foto img{
+    width: 30vw;
+    /* margin-left: 7vw; */
+    box-shadow: 10px 10px 10px 0px rgba(51, 50, 50, 0.263);
+    border-radius: 20px;
+}
+}
+
+
+@media screen and (max-width: 780px) {
+    
+
+    .btn{
+        display: block;
+    }
+
+    .navigasi{
+        font-size: 2.25vw;
+       height: 10vh; 
+       width: 100%;
+       position: fixed;
+       top: 90px;
+       left: -110%;
+       text-align: center;
+       background-color: #00000049;
+       transition: all .5s;
+    }
+
+    #check:checked ~ ul{
+     left: 0;   
+    }
+
+    .wrapper .navigasi li {
+        margin: 50px 0;
+        line-height: 50px;
+        display: block;
+    }
+    
+    .content{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        margin: 80px;
+        align-items: center;
+    
+    }
+
+    video{
+        margin-top: 50px;
+        width:77vw;
+    }
+
+
+.judul{
+    font-size: 2.5vw;
+    font-weight: bold;
+    /* font-style: italic; */
+    text-transform: capitalize;
+    text-align: center;
+    color: #ffffff;
+    margin: 20px 0px 10px 0px; /* atas,kanan,bawah,kiri */
+    line-height: 20px;
+    padding: 20px;
+    background-color: rgb(171, 109, 132);
+    border-radius: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, Geneva, Tahoma, sans-serif;
+}
+
+.isi{
+    background-color: #ffffff;
+    padding: 10px 0px 30px 0px;
+    font-size: 1.15rem;
+    /* font-weight: bold; */
+    font-family: Tahoma;
+    color:rgb(171, 109, 132);
+    /* margin-top: 20px; */
+    margin-left: 0px;
+    text-align: center;
+    text-transform: capitalize;
+ }
+
+ 
+
+ .aboutme{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    margin: auto;
+    /* align-items: center; */
+    /* margin-left: 5vw; */
+ }
+
+
+
+ .aboutme-teks{
+    text-align: center;
+    background-color: #ffffff;
+    padding: 0px;
+    margin: 10px;
+    /* border-radius: 20px; */
+ }
+
+ 
+
+ 
+ .aboutme-teks,h2{
+color: rgb(171, 109, 132);
+font-weight: bold;
+text-transform: capitalize;
+font-size: 4rem;
+margin-bottom: 30px;
+ }
+
+ .aboutme-teks ,p{
+    font-size: medium;
+    color: #000000;
+    text-transform: capitalize;
+}
+    
+
+.aboutme-foto img{
+    /* align-items: center; */
+    width: 30vw;
+    margin-left: 30vw ;
+    margin-right: 30vw ;
+    box-shadow: 10px 10px 10px 0px rgba(51, 50, 50, 0.263);
+    border-radius: 20px;
+}
+}
+
+
