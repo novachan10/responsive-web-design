@@ -1,36 +1,36 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
 }
 
-html{
-     scroll-behavior: smooth;
+html {
+    scroll-behavior: smooth;
 
 }
 
-body{
+body {
     background-image: url(files/fotobg.jpeg);
     margin: 0px;
     padding: 0px;
-    font-family: 'Poppins',sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 
 
-.FContainer{
+.FContainer {
     display: flex;
     /* justify-content: center; */
     /* align-items: center; */
     width: 100%;
     /* height: 100vh; */
-    
+
 
 }
 
-.wrapper{
+.wrapper {
     position: fixed;
     display: flex;
-    justify-content:  space-between;
+    justify-content: space-between;
     align-items: center;
     /* font-size: 2vw; */
     padding: 15px;
@@ -52,18 +52,18 @@ body{
     align-items: center;
 }
 
-.first{
+.first {
     color: #ffffff;
     font-weight: 700;
 }
 
-.last{
+.last {
     color: #f1e31c;
     font-weight: bold;
     padding-left: 5px;
 }
 
-.navigasi{
+.navigasi {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -74,18 +74,19 @@ body{
     margin-right: 15px;
 }
 
-.navigasi > li{
+.navigasi>li {
     list-style-type: none;
-    padding:15px;
+    padding: 15px;
 }
 
-.navigasi >li > a{
+.navigasi>li>a {
     color: #ffffff;
     font-weight: 400;
-    text-decoration: none; /* buat ngilangin garis bawah link */
+    text-decoration: none;
+    /* buat ngilangin garis bawah link */
 }
 
-.navigasi > li>a:hover{
+.navigasi>li>a:hover {
     background-color: #ffffff;
     color: rgb(171, 109, 132);
     font-weight: bold;
@@ -95,45 +96,44 @@ body{
     /* transition: all .1s ease-in-out; */
 }
 
-.tulisanLogo>img{
+.tulisanLogo>img {
     width: 50px;
     height: 50px;
     border-radius: 50px;
     margin-right: 15px;
 }
 
-.tulisanLogo>img:hover{
+.tulisanLogo>img:hover {
     width: 60px;
     height: 60px;
     border-radius: 60px;
 }
 
-.btn{
-  float: right;
-  font-size: 30px;
-  color: #fcfcfc;
-  line-height: 80px;
-  margin-right: 40px;
-  cursor: pointer;
-  display: none;  
+.btn {
+    float: right;
+    font-size: 30px;
+    color: #fcfcfc;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
 }
 
-#check{
+#check {
     display: none;
 }
 
 #main {
     width: 105%;
-    background-image: url(files/fototrip2.jpeg) ;
-    background-attachment: fixed;
+    background-image :url(files/fototrip2.jpeg);
     background-size: 100%;
-    background-repeat: no-repeat;  
+    background-repeat: no-repeat;
 
 }
 
-.content{
+.content {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
     padding-bottom: 130px;
     margin: 100px;
     margin-top: 200px;
@@ -143,88 +143,94 @@ body{
 
 
 
-.judul{
+.judul {
     font-size: 2.5rem;
     font-weight: bolder;
     /* font-style: italic; */
     text-transform: capitalize;
-    /* text-shadow: 3px 2px 1px grey; */
+    text-shadow: 3px 2px 1px rgb(171, 109, 132);
     /* text-align: center; */
     color: #ffffff;
-    margin: 0px 0px 0px 50px; /* atas,kanan,bawah,kiri */
-    line-height: 50px;
+    margin: 0px 0px 0px 50px;
+    /* atas,kanan,bawah,kiri */
+    line-height: 40px;
     padding: 20px;
     /* background-color: rgb(171, 109, 132); */
     border-radius: 10px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, Geneva, Tahoma, sans-serif;
 }
 
-.isi{
+.isi {
     /* background-color: #ffffff; */
     padding: 10px 0px 30px 0px;
     font-size: 1.15rem;
     font-weight: bold;
     font-family: Tahoma;
-    color:rgb(171, 109, 132);
+    color: rgb(171, 109, 132);
     /* margin-top: 20px; */
     margin-left: 70px;
     /* text-align: center; */
     text-transform: capitalize;
- }
+    text-shadow: 3px 2px 1px rgba(243, 163, 243, 0.696);
 
- #agt1,#agt3{
+}
+
+#agt1,
+#agt3 {
     /* background-color: rgb(252, 107, 192); */
     padding: 50px;
     margin-top: 30px;
     margin-bottom: 100px;
-    
- }
 
- #agt2{
+}
+
+#agt2 {
     /* background-color: rgb(252, 107, 192); */
     margin-top: 30px;
     padding: 50px;
     margin-bottom: 100px;
-    
- }
 
- .aboutme{
+}
+
+.aboutme {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
     align-items: center;
     margin-left: 150px;
- }
+}
 
- .aboutme-teks{
+.aboutme-teks {
     background-color: #ffffff;
     padding: 50px;
     margin: 20px;
     /* border-radius: 20px; */
- }
+}
 
- .aboutme-teks,h2{
-color: rgb(171, 109, 132);
-font-weight: bold;
-text-transform: capitalize;
-font-size: 4rem;
-margin-bottom: 30px;
- }
+.aboutme-teks,
+h2 {
+    color: rgb(171, 109, 132);
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: 4rem;
+    margin-bottom: 30px;
+}
 
- .aboutme-teks ,p{
+.aboutme-teks,
+p {
     font-size: medium;
     color: #000000;
     text-transform: capitalize;
 }
-    
 
-.aboutme-foto img{
+
+.aboutme-foto img {
     box-shadow: 10px 10px 10px 0px rgba(51, 50, 50, 0.263);
     border-radius: 20px;
 }
 
 
 
-footer{
+footer {
     position: relative;
     background-color: rgb(171, 109, 132);
     width: 105%;
@@ -237,7 +243,7 @@ footer{
 }
 
 
-.heading{
+.heading {
     justify-content: center;
     text-align: center;
     display: flex;
@@ -246,11 +252,11 @@ footer{
     padding: 20px;
 }
 
-.isi-footer p{
-color: #ffffff;
+.isi-footer p {
+    color: #ffffff;
 }
 
-.social{
+.social {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -258,40 +264,41 @@ color: #ffffff;
     font-style: italic;
 }
 
-.social >li{
+.social>li {
     list-style-type: none;
     padding: 15px;
-    
+
 }
 
-.social > li > a {
-    width: 50px; 
-   height: 50px;
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   background: #f1e31c;
-   border-radius: 50px;
-   margin: 10px 10px;
-   color: #000000;
-   text-decoration: none;
-   font-size: 20px;
+.social>li>a {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f1e31c;
+    border-radius: 50px;
+    margin: 10px 10px;
+    color: #000000;
+    text-decoration: none;
+    font-size: 20px;
 }
 
-.social > li > a:hover{
+.social>li>a:hover {
     width: 60px;
     height: 60px;
     border-radius: 60px;
     color: #fcfcfc;
 }
 
-.copyright p{
+.copyright p {
     color: #ffffff5d;
 }
 
 @media screen and (max-width: 1000px) {
+    /* buat tablet */
 
-    .navigasi{
+    .navigasi {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -301,19 +308,20 @@ color: #ffffff;
         font-size: 1.25vw;
         margin-right: 15px;
     }
-    
-    .navigasi > li{
+
+    .navigasi>li {
         list-style-type: none;
-        padding:15px;
+        padding: 15px;
     }
-    
-    .navigasi >li > a{
+
+    .navigasi>li>a {
         color: #ffffff;
         font-weight: bold;
-        text-decoration: none; /* buat ngilangin garis bawah link */
+        text-decoration: none;
+        /* buat ngilangin garis bawah link */
     }
-    
-    .navigasi > li>a:hover{
+
+    .navigasi>li>a:hover {
         background-color: #ffffff;
         color: rgb(171, 109, 132);
         font-weight: bold;
@@ -322,68 +330,72 @@ color: #ffffff;
         padding: 15px;
         /* transition: all .1s ease-in-out; */
     }
-    
-    
-    .content{
+
+
+    .content {
         display: grid;
-        grid-template-columns: repeat(1,1fr);
+        grid-template-columns: repeat(1, 1fr);
         margin: 100px;
         align-items: center;
-    
+
     }
 
-    video{
+    video {
         margin-top: 50px;
-        width:77vw;
+        width: 77vw;
     }
 
 
-.judul{
-    font-size: 2.5vw;
-    font-weight: bold;
-    /* font-style: italic; */
-    text-transform: capitalize;
-    text-align: center;
-    color: #ffffff;
-    margin: 20px 0px 10px 0px; /* atas,kanan,bawah,kiri */
-    line-height: 20px;
-    padding: 20px;
-    background-color: rgb(171, 109, 132);
-    border-radius: 10px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, Geneva, Tahoma, sans-serif;
-}
+    .judul {
 
-.isi{
-    background-color: #ffffff;
-    padding: 10px 0px 30px 0px;
-    font-size: 1.15rem;
-    /* font-weight: bold; */
-    font-family: Tahoma;
-    color:rgb(171, 109, 132);
-    /* margin-top: 20px; */
-    margin-left: 0px;
-    text-align: center;
-    text-transform: capitalize;
- }
+        font-size: 2.5vw;
+        font-weight: bold;
+        /* font-style: italic; */
+        text-transform: capitalize;
+        text-align: center;
+        text-shadow: none;
+        color: #ffffff;
+        margin: 20px 0px 10px 0px;
+        /* atas,kanan,bawah,kiri */
+        line-height: 20px;
+        padding: 20px;
+        background-color: rgb(171, 109, 132);
+        border-radius: 10px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, Geneva, Tahoma, sans-serif;
+    }
 
- 
+    .isi {
+        background-color: #ffffff;
+        padding: 30px 0px 30px 0px;
+        font-size: 1.15rem;
+        /* font-weight: bold; */
+        font-family: Tahoma;
+        color: rgb(171, 109, 132);
+        /* margin-top: 20px; */
+        margin-left: 0px;
+        text-align: center;
+        text-transform: capitalize;
+        text-shadow: none;
+    }
 
- .aboutme{
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    align-items: center;
-    margin-left: 5vw;
- }
 
- .aboutme-teks{
-    text-align: center;
-    background-color: #ffffff;
-    padding: 50px;
-    margin: 10px;
-    /* border-radius: 20px; */
- }
 
- /* #agt2 > .aboutme{
+    .aboutme {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+        margin-left: 5vw;
+    }
+
+    .aboutme-teks {
+        text-align: center;
+        background-color: #ffffff;
+        padding: 50px;
+        margin: 10px;
+        /* border-radius: 20px; */
+    }
+
+    /* #agt2 > .aboutme{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     align-items: center;
@@ -391,52 +403,55 @@ color: #ffffff;
     
  } */
 
- 
- .aboutme-teks,h2{
-color: rgb(171, 109, 132);
-font-weight: bold;
-text-transform: capitalize;
-font-size: 4rem;
-margin-bottom: 30px;
- }
 
- .aboutme-teks ,p{
-    font-size: medium;
-    color: #000000;
-    text-transform: capitalize;
-}
-    
+    .aboutme-teks,
+    h2 {
+        color: rgb(171, 109, 132);
+        font-weight: bold;
+        text-transform: capitalize;
+        font-size: 4rem;
+        margin-bottom: 30px;
+    }
 
-.aboutme-foto img{
-    width: 30vw;
-    /* margin-left: 7vw; */
-    box-shadow: 10px 10px 10px 0px rgba(51, 50, 50, 0.263);
-    border-radius: 20px;
-}
+    .aboutme-teks,
+    p {
+        font-size: medium;
+        color: #000000;
+        text-transform: capitalize;
+    }
+
+
+    .aboutme-foto img {
+        width: 30vw;
+        /* margin-left: 7vw; */
+        box-shadow: 10px 10px 10px 0px rgba(51, 50, 50, 0.263);
+        border-radius: 20px;
+    }
 }
 
 
 @media screen and (max-width: 780px) {
-    
+    /* untuk hp */
 
-    .btn{
+
+    .btn {
         display: block;
     }
 
-    .navigasi{
+    .navigasi {
         font-size: 2.25vw;
-       height: 10vh; 
-       width: 100%;
-       position: fixed;
-       top: 90px;
-       left: -110%;
-       text-align: center;
-       background-color: #00000049;
-       transition: all .5s;
+        height: 10vh;
+        width: 100%;
+        position: fixed;
+        top: 90px;
+        left: -110%;
+        text-align: center;
+        background-color: #00000049;
+        transition: all .5s;
     }
 
-    #check:checked ~ ul{
-     left: 0;   
+    #check:checked~ul {
+        left: 0;
     }
 
     .wrapper .navigasi li {
@@ -444,95 +459,99 @@ margin-bottom: 30px;
         line-height: 50px;
         display: block;
     }
-    
-    .content{
+
+    .content {
         display: grid;
-        grid-template-columns: repeat(1,1fr);
+        grid-template-columns: repeat(1, 1fr);
         margin: 80px;
         align-items: center;
-    
+
     }
 
-    video{
+    video {
         margin-top: 50px;
-        width:77vw;
+        width: 77vw;
     }
 
 
-.judul{
-    font-size: 2.5vw;
-    font-weight: bold;
-    /* font-style: italic; */
-    text-transform: capitalize;
-    text-align: center;
-    color: #ffffff;
-    margin: 20px 0px 10px 0px; /* atas,kanan,bawah,kiri */
-    line-height: 20px;
-    padding: 20px;
-    background-color: rgb(171, 109, 132);
-    border-radius: 10px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, Geneva, Tahoma, sans-serif;
+    .judul {
+        text-shadow: none;
+        font-size: 2.5vw;
+        font-weight: bold;
+        /* font-style: italic; */
+        text-transform: capitalize;
+        text-align: center;
+        color: #ffffff;
+        margin: 20px 0px 10px 0px;
+        /* atas,kanan,bawah,kiri */
+        line-height: 20px;
+        padding: 20px;
+        background-color: rgb(171, 109, 132);
+        border-radius: 10px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, Geneva, Tahoma, sans-serif;
+    }
+
+    .isi {
+        text-shadow: none;
+        background-color: #ffffff;
+        border-radius: 10px;
+        padding: 30px 0px 30px 0px;
+        font-size: 1.15rem;
+        /* font-weight: bold; */
+        font-family: Tahoma;
+        color: rgb(171, 109, 132);
+        /* margin-top: 20px; */
+        margin-left: 0px;
+        text-align: center;
+        text-transform: capitalize;
+    }
+
+
+
+    .aboutme {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin: auto;
+        /* align-items: center; */
+        /* margin-left: 5vw; */
+    }
+
+
+
+    .aboutme-teks {
+        text-align: center;
+        background-color: #ffffff;
+        padding: 0px;
+        margin: 10px;
+        /* border-radius: 20px; */
+    }
+
+
+
+
+    .aboutme-teks,
+    h2 {
+        color: rgb(171, 109, 132);
+        font-weight: bold;
+        text-transform: capitalize;
+        font-size: 4rem;
+        margin-bottom: 30px;
+    }
+
+    .aboutme-teks,
+    p {
+        font-size: medium;
+        color: #000000;
+        text-transform: capitalize;
+    }
+
+
+    .aboutme-foto img {
+        /* align-items: center; */
+        width: 30vw;
+        margin-left: 30vw;
+        margin-right: 30vw;
+        box-shadow: 10px 10px 10px 0px rgba(51, 50, 50, 0.263);
+        border-radius: 20px;
+    }
 }
-
-.isi{
-    background-color: #ffffff;
-    padding: 10px 0px 30px 0px;
-    font-size: 1.15rem;
-    /* font-weight: bold; */
-    font-family: Tahoma;
-    color:rgb(171, 109, 132);
-    /* margin-top: 20px; */
-    margin-left: 0px;
-    text-align: center;
-    text-transform: capitalize;
- }
-
- 
-
- .aboutme{
-    display: grid;
-    grid-template-columns: repeat(1,1fr);
-    margin: auto;
-    /* align-items: center; */
-    /* margin-left: 5vw; */
- }
-
-
-
- .aboutme-teks{
-    text-align: center;
-    background-color: #ffffff;
-    padding: 0px;
-    margin: 10px;
-    /* border-radius: 20px; */
- }
-
- 
-
- 
- .aboutme-teks,h2{
-color: rgb(171, 109, 132);
-font-weight: bold;
-text-transform: capitalize;
-font-size: 4rem;
-margin-bottom: 30px;
- }
-
- .aboutme-teks ,p{
-    font-size: medium;
-    color: #000000;
-    text-transform: capitalize;
-}
-    
-
-.aboutme-foto img{
-    /* align-items: center; */
-    width: 30vw;
-    margin-left: 30vw ;
-    margin-right: 30vw ;
-    box-shadow: 10px 10px 10px 0px rgba(51, 50, 50, 0.263);
-    border-radius: 20px;
-}
-}
-
-
