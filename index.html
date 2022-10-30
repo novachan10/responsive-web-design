@@ -1,140 +1,240 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>Pekenalan</title>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Profile Kelompok 7</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://kit.fontawesome.com/de8de52639.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="style.css">
-
-</head>
-<body>
-    <section id="main">   <!-- ini buat tag an yg bisa di klik--> 
-        <div class="FContainer"> 
-            <nav class="wrapper"> <!-- buat navigasi,header -->
-                <input type="checkbox" id="check">
-                <label for="check" class="btn">
-                    <i class="fas fa-bars"></i>
-
-                </label>
-                <div class="tulisanLogo"> <!-- ini buat tulisan di sebelah logo -->
-                    <img src="files/gift.gif" alt=""/>
-                    <div class="first">Tripple</div>
-                    <div class="last">N</div>
-                </div>
-                <ul class="navigasi"> <!-- ini buat tulisan yang bisa diklik -->
-                    <li><a href="#main" >Home</a></li >
-                    <li><a href="#agt1" >Anggota 1</a></li >
-                    <li><a href="#agt2" >Anggota 2</a></li> 
-                    <li><a href="#agt3" >Anggota 3</a></li> 
-                    <li><a href="#contact" >contact</a></li> 
-                </ul>     
-            </nav>
+  </head>
+  <body>
+      <nav class="navbar fixed-top navbar-expand-lg" style="background-color: rgb(171,109,132)">
+        <div class="container-fluid" >
+          <img src="files/gift.gif" class="rounded-circle" alt="Logo" width="30" height="30" class="d-inline-block">
+          <a class="navbar-brand" href="#"><b style="color: white">&nbsp;Tripple</b><b style="color: yellow"> N</b></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" >
+            <span class="navbar-toggler-icon" ></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav" >
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="#" >Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#profile" >Profile</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#agt" >Anggota</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="#contact"  >Contact</a>
+              </li>
+            </ul>
+          </div>
         </div>
-    
-    <div class="content">
-        <div class="video" > <!-- buat video-->
-            <video width="500" controls >
-                <source src="files/video_perkenalan.mp4" type="video/mp4"> <!--ini videonya-->
-            </video>
-        </div>
-        <div class="deskripsi"> <!-- ini buat tulisan samping video-->
-            <div class="judul">HAII EVERYONE! <br>We are from <br> group 7</div>
-            <div class="isi">
-                <p>Welcome to our profile web, Tripple N.</p>
-                <p>This web is made to introduce our group, enjoy </p>
-            </div>
-        </div>
-    </div>
-    </section>
-    
-    <section id="agt1">
-        <div class="aboutme">
-            <div class="aboutme-foto" > <!--ini foto risha-->
-                <img src="files/foto_risha.jpeg" width="250px">
-            </div>
-        <div class="aboutme-teks"> <!--ini teks deskripsi risha-->
-            <h2>About Risha!</h2>
-            <p>Nama lengkap: Nabila Risha Juliana<br>
-             Panggilan: Risha<br>
-             Kelas: XI RPL 1<br>
-             Alamat: Jl.Candi Agung lll no. 11 <br>
-             Tgl lahir: 19 Juli 2006<br>
-             No telp: 0818199220<br>
-             Asal sekolah: SMK TELKOM MALANG<br>
-             Hobi: menonton,makeup<br>
-             Softskill: Self-Control <br>
-             Kesukaan: Luffy </p>
-        </div>
-        <!--  -->
-        </div>
-    </section >   
-    
-    <section id="agt2">
-        <div class="aboutme">
-            <div class="aboutme-foto"> <!--ini foto nayla-->
-                <img src="files/foto_nayla.jpeg" width="250px">
-            </div>
-            <div class="aboutme-teks"> <!--ini teks deskripsi nayla-->
-                <h2>About Nayla!</h2>
-                <p>Nama lengkap : Nayla Nur Amalia <br>
-                    Panggilan : Nayla<br>
-                    Kelas : XI RPL 1 <br>
-                    Alamat : jl Danau Buyan F19<br>
-                    Tgl lahir : 11 Juni 2006<br>
-                    No telp : 081222318396<br>
-                    Asal sekolah : SMK TELKOM MALANG <br>
-                    Hobi : Membaca, mendengar musik<br>
-                    Softskill : public speaking, cepat beradaptasi, kolaborasi<br>
-                    Kesukaan : -</p>
-            </div>
-            </div>
-    </section > 
-    
-    <section id="agt3">
-        <div class="aboutme">
-            <div class="aboutme-foto"> <!--ini foto nova-->
-                <img src="files/foto_nova.jpeg" width="250px">
-            </div>
-            <div class="aboutme-teks"> <!--ini teks deskripsi nova-->
-                <h2>About Nova!</h2>
-                <p>Nama lengkap: Nova Chandra Kirana<br>
-                    Panggilan: Nova<br>
-                    Kelas: XI RPL 2<br>
-                    Alamat: jl Danau Ranau No.26 G6 E28<br>
-                    Tgl lahir: 31 Agustus 2006<br>
-                    No telp: 081515582791<br>
-                    Asal sekolah: SMK Telkom Malang<br>
-                    Hobi: Membaca , Memasak<br>
-                    Softskill: Berpikir Kritis<br>
-                    Kesukaan: Kulineran</p>
-            </div>
-           
-            </div>
-    </section > 
-
-    <section id="contact">
-        <footer>
-            <div class="isi-footer">
-                <div class="heading">
-                    <div class="first">Tripple</div>
-                    <div class="last">N</div>
-                </div>
-                <p>Please click on the link below if you need us</p>
-                <ul class="social">
-                  <li><a href="https://smktelkom-mlg.sch.id/"><i class="fa fa-google"></i></a></li> 
-                  <li><a href="https://www.instagram.com/smktelkommalang/" ><i class="fa fa-instagram"></i></a></li> 
-                  <li><a href="https://www.youtube.com/c/smktelkommalang" ><i class="fa fa-youtube"></i></a></li> 
-                </ul>
-              </div>
+      </nav>
       
-              <div class="copyright">
-                <p>Copyright © 2022 TrippleN designed by kelompok 7</p>
+      <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner" style="height: 500px;">
+          <div class="carousel-item active" data-bs-interval="2000">
+            <img src="carousel/fototrip1.jpeg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h3>Tripple N</h3>
+              <p>Kelompok 7 TEFA</p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="carousel/fototrip4.jpeg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="carousel/fototrip3.jpeg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+<section id="profile">
+  <div class="container text-center">
+    <div class="row">
+      <div class="col">
+        <div class="deskripsi"> <!-- ini buat tulisan samping video-->
+          <div class="judul"><br>Profile Video</div>
+            <div class="isi">
+                <p>Welcome to our profile web, Tripple N. This web is made to introduce our group, enjoy</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="haha">
+    <div class="container text-center">
+      <br>
+      <div class="row">
+        <div class="col">
+          <div class="container-fluid">
+            <video class="img-fluid" controls >
+              <source
+              src="files/video_perkenalan.mp4"
+                type="video/mp4"
+              />
+            </video>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="agt">
+  <div class="haha">
+    <div class="container text-center">
+      <div class="row">
+        <div class="col">
+          <div class="deskripsi"> <!-- ini buat tulisan samping video-->
+            <div class="judul"><br>Our Members</div>
+              <div class="isi">
+                  <p>Introduce to our happy members shown in the tiles below.</p>
               </div>
-        </footer>
-    </section>
-    
-</body>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="haha">
+    <div class="container text-center container-fluid" >
+      <div class="nama row align-items-start">
+        <div class="col">
+          <div class="card" style="border: none;">
+            <img src="files/foto_risha.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">About Risha!</h5>
+              <p class="card-text">
+                Nama lengkap: Nabila Risha Juliana<br>
+                Panggilan: Risha<br>
+                Kelas: XI RPL 1<br>card-footer
+                Alamat: Jl.Candi Agung lll no. 11 <br>
+                Tgl lahir: 19 Juli 2006<br>
+                No telp: 0818199220<br>
+                Asal sekolah: SMK TELKOM MALANG<br>
+                Hobi: menonton,makeup<br>
+                Softskill: Self-Control <br>
+                Kesukaan: Luffy
+              </p>
+            </div>
+            <div class="card-footer" style="border: none;">
+              <a href="anggota1.html" class="btn btn-primary" >See Details</a>              
+            </div>
+          </div>          
+        </div>
+        <div class="col">
+          <div class="card" style="border: none;">
+            <img src="files/foto_nayla.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">About Nayla!</h5>
+              <p class="card-text">
+                Nama lengkap : Nayla Nur Amalia <br>
+                Panggilan : Nayla<br>
+                Kelas : XI RPL 1 <br>
+                Alamat : jl Danau Buyan F19<br>
+                Tgl lahir : 11 Juni 2006<br>
+                No telp : 081222318396<br>
+                Asal sekolah : SMK TELKOM MALANG <br>
+                Hobi : Membaca, mendengar musik<br>
+                Softskill : public speaking, cepat beradaptasi, kolaborasi<br>
+                Kesukaan : -
+              </p>
+            </div>
+            <div class="card-footer" style="border: none;">
+              <a href="#" class="btn btn-primary">See Details</a>              
+            </div>
+          </div>        
+        </div>
+        <div class="col">
+          <div class="card" style="border: none;">
+            <img src="files/foto_nova.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">About Nova!</h5>
+              <p class="card-text">
+                Nama lengkap: Nova Chandra Kirana<br>
+                Panggilan: Nova<br>
+                Kelas: XI RPL 2<br>
+                Alamat: jl Danau Ranau No.26 G6 E28<br>
+                Tgl lahir: 31 Agustus 2006<br>
+                No telp: 081515582791<br>
+                Asal sekolah: SMK Telkom Malang<br>
+                Hobi: Membaca , Memasak<br>
+                Softskill: Berpikir Kritis<br>
+                Kesukaan: Kulineran                
+              </p>
+            </div>
+            <div class="card-footer" style="border: none;">
+              <a href="#" class="btn btn-primary">See Details</a>              
+            </div>
+          </div>          
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+     
+      
+<section id="contact">
+  <nav class="navbar" style="background-color: rgb(171,109,132)">
+    <div class="container-fluid">
+      <div class="container text-center container-fluid">
+        <div class="col">
+          <br>
+          <div class="heading">
+            <div class="first">Tripple</div>
+            <div class="last">N</div>
+        </div>         
+        </div>
+        <div class="col">
+          <b style="color: white">Please click on the link below if you need us</b>
+        </div>
+        <div class="col">
+          <div class="container text-center">
+            <div class="row align-items-start">
+              <div class="col">
+                <div class="social">
+                  <br>
+                  <a href="https://smktelkom-mlg.sch.id/"><i class="fa fa-google"></i></a>
+                  <a href="https://www.instagram.com/smktelkommalang/" ><i class="fa fa-instagram"></i></a> 
+                  <a href="https://www.youtube.com/c/smktelkommalang" ><i class="fa fa-youtube"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="copyright">
+            <b style="color: rgb(205, 188, 188); ">Copyright © 2022 TrippleN designed by kelompok 7</b>
+          </div>
+        </div>
+      </div>        
+    </div>
+  </nav>
+</section>
+      
+  </body>
 </html>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
