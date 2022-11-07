@@ -1,3 +1,11 @@
+$ungu : rgb(171, 109, 132);
+$hitammuda : rgba(66, 65, 65, 0.5);
+$hitam : rgb(0, 0, 0);
+$pink : #eab5b5;
+$putih : #ffffff;
+$kuning : #f1e31c;
+$whitemilk : #fcfcfc;
+
 ul{
     .nav-item{
         a {
@@ -6,11 +14,11 @@ ul{
         }
         a:hover {
             margin-right: 5px;
-            background-color: #ffffff;
-            color: rgb(171, 109, 132);
+            background-color: $putih;
+            color: $ungu;
             font-weight: bold;
             border-radius: 5px;
-            box-shadow: 0px 5px 0px rgba(66, 65, 65, 0.5);
+            box-shadow: 0px 5px 0px $hitammuda;
             padding: 10px;
             /* transition: all .1s ease-in-out; */
         }
@@ -37,14 +45,14 @@ ul{
 
 .nama{
     h5 {
-        color: rgb(171, 109, 132);
+        color: $ungu;
         font-weight: bold;
         text-transform: capitalize;
         font-size: 2rem;
         margin-bottom: 30px;
     }
     p {
-        color: rgb(0, 0, 0);
+        color: $hitam;
         font-weight: bold;
         text-transform: capitalize;
         font-size: 1rem;
@@ -73,9 +81,9 @@ ul{
     font-weight: bolder;
     /* font-style: italic; */
     text-transform: capitalize;
-    text-shadow: 3px 2px 1px rgb(171, 109, 132);
+    text-shadow: 3px 2px 1px $ungu;
     /* text-align: center; */
-    color: #eab5b5;
+    color: $pink;
     margin: 0px 0px 0px 0px;
     /* atas,kanan,bawah,kiri */
     line-height: 40px;
@@ -91,7 +99,7 @@ ul{
     font-size: 1.15rem;
     font-weight: bold;
     font-family: Tahoma;
-    color: rgb(171, 109, 132);
+    color: $ungu;
     /* margin-top: 20px; */
     margin-left: 0px;
     /* text-align: center; */
@@ -104,9 +112,9 @@ ul{
     font-weight: bolder;
     /* font-style: italic; */
     text-transform: capitalize;
-    text-shadow: 3px 2px 1px rgb(171, 109, 132);
+    text-shadow: 3px 2px 1px $ungu;
     /* text-align: center; */
-    color: #eab5b5;
+    color: $pink;
     margin: 0px 0px 0px 0px;
     /* atas,kanan,bawah,kiri */
     line-height: 40px;
@@ -124,9 +132,9 @@ ul{
 }
 
 .card-footer{
-    background-color: #ffffff;
+    background-color: $putih;
     a{
-        background-color:rgb(171,109,132) ;
+        background-color: $ungu ;
         border: none;
     }
 }
@@ -144,12 +152,12 @@ ul{
     font-size: 2.5em;
     padding: 20px;
     .first {
-        color: #ffffff;
+        color: $putih;
         font-weight: 700;
     }
     
     .last {
-        color: #f1e31c;
+        color: $kuning;
         font-weight: bold;
         padding-left: 5px;
     }
@@ -181,10 +189,10 @@ ul{
         display: flex;
         align-items: center;
         justify-content: center;
-        background: #f1e31c;
+        background: $kuning;
         border-radius: 50px;
         margin: 10px 10px;
-        color: #000000;
+        color: $hitam;
         text-decoration: none;
         font-size: 20px;
 
@@ -194,7 +202,7 @@ ul{
         width: 60px;
         height: 60px;
         border-radius: 60px;
-        color: #fcfcfc;
+        color: $whitemilk;
     }
 }
 
