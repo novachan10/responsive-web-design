@@ -1,11 +1,4 @@
-$ungu : rgb(171, 109, 132);
-$putih :rgb(255, 255, 255);
-$lightgrey : #fcfcfc;
-$hitammuda : rgba(66, 65, 65, 0.5);
-$pink : #eab5b5;
-$kuning : #f1e31c;
-$hitam : #000000;
-
+@import '_asset.scss';
 body{
     background-image: url(files/fotobg.jpeg);
 }
@@ -14,11 +7,10 @@ ul{
         a{
             color: $putih;
             
-
         }
         a:hover {
             margin-right: 5px;
-            background-color: #ffffff;
+            background-color: $putih;
             color: $ungu;
             font-weight: bold;
             border-radius: 5px;
@@ -29,8 +21,6 @@ ul{
     }
 }
 
-
-
 .carousel{
 margin-top: 60px;
 }
@@ -40,13 +30,9 @@ border-radius: 20px;
 margin-top: 100px;
 box-shadow: 10px 10px 10px 0px $hitammuda;
 }
-
 .card{
 margin-top: 100px;
 }
-
-
-
 h3,h5{
     font-size: 2rem;
     background-color: $putih;
@@ -58,7 +44,6 @@ h3,h5{
     padding-bottom: 10px;
 }
 
-
 .tombol {
     a{
     background-color: $ungu;
@@ -68,7 +53,6 @@ h3,h5{
     margin: 10px;
     margin-bottom: 20px;
 
-    
     }
     a:hover{
         background-color: $pink ;
@@ -79,8 +63,6 @@ h3,h5{
         margin-bottom: 20px;
         }
 }
-
-
 
 .heading {
 justify-content: center;
@@ -103,8 +85,6 @@ padding: 20px;
     
 }
 
-
-
 .social{
 margin-top: 5px;
 margin-bottom: 5px;
@@ -113,7 +93,6 @@ justify-content: center;
 align-items: center;
 text-transform: capitalize;
 font-style: italic;
-
     a{
         width: 50px;
         height: 50px;
@@ -125,9 +104,7 @@ font-style: italic;
         margin: 10px 10px;
         color: $hitam;
         text-decoration: none;
-        font-size: 20px;
-
-            
+        font-size: 20px;     
         }
         a:hover{
             width: 60px;
@@ -137,21 +114,16 @@ font-style: italic;
             }
 }
 
-
-
 .copyright{
 padding-top: 5px;
 padding-bottom: 20px;
 }
 
 @media screen and (max-width: 1024px ) {
-
 .isi{
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     margin: auto;
-    /* align-items: center; */
-    /* margin-left: 5vw; */
 
     p,h5{
         margin-left: 50px;
@@ -159,9 +131,6 @@ padding-bottom: 20px;
     
     }
 }
-
-
-
 
 .social-agt {
     .social {
@@ -175,7 +144,6 @@ padding-bottom: 20px;
     }  
 } 
 
-
 .maps {
     iframe{
         width: 80vw;
@@ -185,7 +153,6 @@ padding-bottom: 20px;
 }
 
 @media screen and (max-width: 780px) {
-
 .card{
     margin-top: 40px;
 }
@@ -208,7 +175,6 @@ padding-bottom: 20px;
         color: $pink;
     }
 }
-
 
 .maps {
     iframe{
