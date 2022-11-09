@@ -7,7 +7,7 @@ ul .nav-item a {
 }
 ul .nav-item a:hover {
   margin-right: 5px;
-  background-color: #ffffff;
+  background-color: rgb(255, 255, 255);
   color: rgb(171, 109, 132);
   font-weight: bold;
   border-radius: 5px;
@@ -115,8 +115,6 @@ h3, h5 {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     margin: auto;
-    /* align-items: center; */
-    /* margin-left: 5vw; */
   }
   .isi p, .isi h5 {
     margin-left: 50px;

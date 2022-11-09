@@ -3,7 +3,7 @@ ul .nav-item a {
 }
 ul .nav-item a:hover {
   margin-right: 5px;
-  background-color: #ffffff;
+  background-color: rgb(255, 255, 255);
   color: rgb(171, 109, 132);
   font-weight: bold;
   border-radius: 5px;
@@ -27,7 +27,7 @@ ul .nav-item a:hover {
   margin-bottom: 30px;
 }
 .nama p {
-  color: rgb(0, 0, 0);
+  color: #000000;
   font-weight: bold;
   text-transform: capitalize;
   font-size: 1rem;
@@ -87,7 +87,7 @@ ul .nav-item a:hover {
 }
 
 .card-footer {
-  background-color: #ffffff;
+  background-color: rgb(255, 255, 255);
 }
 .card-footer a {
   background-color: rgb(171, 109, 132);
@@ -103,7 +103,7 @@ ul .nav-item a:hover {
   padding: 20px;
 }
 .heading .first {
-  color: #ffffff;
+  color: rgb(255, 255, 255);
   font-weight: 700;
 }
 .heading .last {
@@ -130,7 +130,7 @@ ul .nav-item a:hover {
   background: #f1e31c;
   border-radius: 50px;
   margin: 10px 10px;
-  color: rgb(0, 0, 0);
+  color: #000000;
   text-decoration: none;
   font-size: 20px;
 }
